@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-1:hover img {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+.card-1 img {
+  transition: 0.4s;
+}
+
+.slick-list {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 639.98px) {
+  .slick-list {
+    padding-left: 28px !important;
+  }
+  .landing-page-slider .slick-list {
+    padding-left: 26px !important;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.home-exp-slide {
+  padding: 0 20px !important;
+}
+
+.home-mem-slide {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 639.98px) {
+  .home-mem-slide {
+    padding: 0 20px !important;
+  }
+}
+
+.home-mem-slide .swiper-slide {
+  height: unset !important;
+}
